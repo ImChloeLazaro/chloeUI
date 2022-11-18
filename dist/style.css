@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 
 *::after, *::before {
@@ -13,12 +14,269 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.bg-primary-light-0 {
+  background: #005eff;
+}
+
+.bg-primary-light-1 {
+  background: #0055e6;
+}
+
+.bg-primary-light-2 {
+  background: #004bcc;
+}
+
+.bg-primary-light-3 {
+  background: #0042b3;
+}
+
+.bg-primary-light-4 {
+  background: #003899;
+}
+
+.bg-primary-light-5 {
+  background: #002f80;
+}
+
+.bg-primary-light-6 {
+  background: #002666;
+}
+
+.bg-primary-light-7 {
+  background: #001c4d;
+}
+
+.bg-primary-light-8 {
+  background: #001333;
+}
+
+.bg-secondary-light-0 {
+  background: #9a9999;
+}
+
+.bg-secondary-light-1 {
+  background: #8b8a8a;
+}
+
+.bg-secondary-light-2 {
+  background: #7b7a7a;
+}
+
+.bg-secondary-light-3 {
+  background: #6c6b6b;
+}
+
+.bg-secondary-light-4 {
+  background: #5c5c5c;
+}
+
+.bg-secondary-light-5 {
+  background: #4d4d4d;
+}
+
+.bg-secondary-light-6 {
+  background: #3e3d3d;
+}
+
+.bg-secondary-light-7 {
+  background: #2e2e2e;
+}
+
+.bg-secondary-light-8 {
+  background: #1f1f1f;
+}
+
+.bg-success-light-0 {
+  background: #54d354;
+}
+
+.bg-success-light-1 {
+  background: #4cbe4c;
+}
+
+.bg-success-light-2 {
+  background: #43a943;
+}
+
+.bg-success-light-3 {
+  background: #3b943b;
+}
+
+.bg-success-light-4 {
+  background: #327f32;
+}
+
+.bg-success-light-5 {
+  background: #2a6a2a;
+}
+
+.bg-success-light-6 {
+  background: #225422;
+}
+
+.bg-success-light-7 {
+  background: #193f19;
+}
+
+.bg-success-light-8 {
+  background: #112a11;
+}
+
+.bg-warning-light-0 {
+  background: #f8f848;
+}
+
+.bg-warning-light-1 {
+  background: #dfdf41;
+}
+
+.bg-warning-light-2 {
+  background: #c6c63a;
+}
+
+.bg-warning-light-3 {
+  background: #aeae32;
+}
+
+.bg-warning-light-4 {
+  background: #95952b;
+}
+
+.bg-warning-light-5 {
+  background: #7c7c24;
+}
+
+.bg-warning-light-6 {
+  background: #63631d;
+}
+
+.bg-warning-light-7 {
+  background: #4a4a16;
+}
+
+.bg-warning-light-8 {
+  background: #32320e;
+}
+
+.bg-danger-light-0 {
+  background: #fe4444;
+}
+
+.bg-danger-light-1 {
+  background: #e53d3d;
+}
+
+.bg-danger-light-2 {
+  background: #cb3636;
+}
+
+.bg-danger-light-3 {
+  background: #b23030;
+}
+
+.bg-danger-light-4 {
+  background: #982929;
+}
+
+.bg-danger-light-5 {
+  background: #7f2222;
+}
+
+.bg-danger-light-6 {
+  background: #661b1b;
+}
+
+.bg-danger-light-7 {
+  background: #4c1414;
+}
+
+.bg-danger-light-8 {
+  background: #330e0e;
+}
+
+.bg-dark-light-0 {
+  background: black;
+}
+
+.bg-dark-light-1 {
+  background: black;
+}
+
+.bg-dark-light-2 {
+  background: black;
+}
+
+.bg-dark-light-3 {
+  background: black;
+}
+
+.bg-dark-light-4 {
+  background: black;
+}
+
+.bg-dark-light-5 {
+  background: black;
+}
+
+.bg-dark-light-6 {
+  background: black;
+}
+
+.bg-dark-light-7 {
+  background: black;
+}
+
+.bg-dark-light-8 {
+  background: black;
+}
+
+.bg-light-light-0 {
+  background: white;
+}
+
+.bg-light-light-1 {
+  background: #e6e6e6;
+}
+
+.bg-light-light-2 {
+  background: #cccccc;
+}
+
+.bg-light-light-3 {
+  background: #b3b3b3;
+}
+
+.bg-light-light-4 {
+  background: #999999;
+}
+
+.bg-light-light-5 {
+  background: gray;
+}
+
+.bg-light-light-6 {
+  background: #666666;
+}
+
+.bg-light-light-7 {
+  background: #4d4d4d;
+}
+
+.bg-light-light-8 {
+  background: #333333;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
   margin-top: 0;
 }
 
 p {
   margin-top: 0;
+}
+
+:is(a, a:visited) {
+  color: black;
+  text-decoration: none;
 }
 
 .text-primary {
@@ -39,4 +297,12 @@ p {
 
 .text-danger {
   color: rgb(254, 68, 68);
+}
+
+.text-dark {
+  color: black;
+}
+
+.text-light {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
